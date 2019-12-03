@@ -3,11 +3,11 @@
 
 #include <vanetza/asn1/asn1c_conversion.hpp>
 #include <vanetza/asn1/asn1c_wrapper.hpp>
-#include <artery/cpm/compiled/CPM.h>
+#include <vanetza/asn1/cpm/compiled/CPM.h>
 
-namespace artery
+namespace vanetza
 {
-namespace cpm
+namespace asn1
 {
 	
 class Cpm : public vanetza::asn1::asn1c_wrapper<CPM_t>
